@@ -99,7 +99,7 @@ Git是一款免费、开源的分布式版本控制系统，用于敏捷高效�
 Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管
 Git 是 Linus Torvalds 为了帮助管理 Linux内核开发而开发的一个开放源码的版本控制软件">
 <meta property="og:image" content="http://o84sfajoj.bkt.clouddn.com/GIT%E6%8C%87%E5%8D%97_1?imageView2/2/w/900/interlace/0/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/14/gravity/SouthEast/dx/10/dy/10">
-<meta property="og:updated_time" content="2017-04-05T06:00:44.596Z">
+<meta property="og:updated_time" content="2017-04-05T06:41:44.492Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GIT实用指北">
 <meta name="twitter:description" content="简介
@@ -114,7 +114,7 @@ Git 是 Linus Torvalds 为了帮助管理 Linux内核开发而开发的一个开
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Mist',
-    sidebar: {"position":"right","display":"post"},
+    sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -151,7 +151,7 @@ Git 是 Linus Torvalds 为了帮助管理 Linux内核开发而开发的一个开
     
   
 
-  <div class="container one-collumn sidebar-position-right page-post-detail ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -340,9 +340,9 @@ Git 是 Linus Torvalds 为了帮助管理 Linux内核开发而开发的一个开
 <li>git add .  &ensp;&ensp;提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件</li>
 <li>git add -A  &ensp;&ensp;提交所有变化</li>
 <li>git add -u  &ensp;&ensp;提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)</li>
-<li>git add -p  &ensp;&ensp;提交分布式，每次提交会提示是否提交<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git status</div><div class="line"></div><div class="line"># Changes to be committed:</div><div class="line">#   new file:   add-me</div><div class="line">#   modified:   change-me</div><div class="line"># Changed but not updated:</div><div class="line">#   deleted:    delete-me</div><div class="line"></div><div class="line">git reset</div><div class="line"></div><div class="line">git add -u</div><div class="line">git status</div><div class="line"></div><div class="line"># Changes to be committed:</div><div class="line">#   modified:   change-me</div><div class="line">#   deleted:    delete-me</div><div class="line"># Untracked files:</div><div class="line">#   add-me</div><div class="line"></div><div class="line">git reset</div><div class="line"></div><div class="line">git add -A</div><div class="line">git status</div><div class="line"></div><div class="line"># Changes to be committed:</div><div class="line">#   new file:   add-me</div><div class="line">#   modified:   change-me</div><div class="line">#   deleted:    delete-me</div></pre></td></tr></table></figure>
-</li>
+<li>git add -p  &ensp;&ensp;提交分布式，每次提交会提示是否提交</li>
 </ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">git add .</div><div class="line">git status</div><div class="line"></div><div class="line"># Changes to be committed:</div><div class="line">#   new file:   add-me</div><div class="line">#   modified:   change-me</div><div class="line"># Changed but not updated:</div><div class="line">#   deleted:    delete-me</div><div class="line"></div><div class="line">git reset</div><div class="line"></div><div class="line">git add -u</div><div class="line">git status</div><div class="line"></div><div class="line"># Changes to be committed:</div><div class="line">#   modified:   change-me</div><div class="line">#   deleted:    delete-me</div><div class="line"># Untracked files:</div><div class="line">#   add-me</div><div class="line"></div><div class="line">git reset</div><div class="line"></div><div class="line">git add -A</div><div class="line">git status</div><div class="line"></div><div class="line"># Changes to be committed:</div><div class="line">#   new file:   add-me</div><div class="line">#   modified:   change-me</div><div class="line">#   deleted:    delete-me</div></pre></td></tr></table></figure>
 <h3 id="bisect"><a href="#bisect" class="headerlink" title="bisect"></a>bisect</h3><p>Git-bisect &ensp;&ensp;用于通过二分查找来查寻版本的错误，一般用于大工程<br><a href="https://www.oschina.net/translate/letting-git-bisect-help-you" target="_blank" rel="external">详解</a></p>
 <p>设定前后两个版本，一个为good, 一个为bad, 使用二分查找中间的版本，进行编译，看是否出现问题，如果没有，在该版本与之前设定的bad之间再进行二分；如果有错误，则在该版本与之前设定的good之间进行二分,分别设定了两个版本，一个good, 一个bad, 只要有一个good和一个bad设定完成，就出输出可能的中间版本，你可以将该版本checkout， 编译看是否有bug</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git bisect start</div><div class="line">$ git bisect bad                 # Current version is bad</div><div class="line">$ git bisect good v2.6.13-rc2    # v2.6.13-rc2 was the last version</div><div class="line">                                 # tested that was good</div></pre></td></tr></table></figure>
