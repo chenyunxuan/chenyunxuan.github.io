@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chenyunxuan.top/"/>
-  <updated>2017-04-07T08:48:38.132Z</updated>
+  <updated>2017-04-07T08:48:40.000Z</updated>
   <id>http://chenyunxuan.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://chenyunxuan.top/2017/02/24/GIT%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8C%97/"/>
     <id>http://chenyunxuan.top/2017/02/24/GIT实用指北/</id>
     <published>2017-02-24T04:39:04.000Z</published>
-    <updated>2017-04-07T08:48:38.132Z</updated>
+    <updated>2017-04-07T08:48:40.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://o84sfajoj.bkt.clouddn.com/GIT%E6%8C%87%E5%8D%97_1?imageView2/2/w/900/interlace/0/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/14/gravity/SouthEast/dx/10/dy/10" alt="image"></p>
 <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
@@ -137,7 +137,7 @@
     <link href="http://chenyunxuan.top/2016/10/24/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
     <id>http://chenyunxuan.top/2016/10/24/博客搭建教程/</id>
     <published>2016-10-24T04:39:04.000Z</published>
-    <updated>2016-10-24T10:12:04.652Z</updated>
+    <updated>2016-10-24T10:12:06.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://o84sfajoj.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20161024175522.png?imageView2/2/w/900/interlace/0/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/14/gravity/SouthEast/dx/10/dy/10" alt="image"></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>博客使用的是<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> 框架.<br>采用的主题为<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NEXT</a><br>采用的评论模板为<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a></p>
@@ -161,7 +161,7 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;http://o84sfajoj.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20161024175522.png?imageView2/2/w/900/interlace/0/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/14/gravity/SouthEast/dx/10/dy/10&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;博客使用的是&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt; 框架.&lt;br&gt;采用的主题为&lt;a href=&quot;http://theme-next.iissnan.com/&quot;&gt;NEXT&lt;/a&gt;&lt;br&gt;采用的评论模板为&lt;a href=&quot;http://duoshuo.com/&quot;&gt;多说&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;博客使用的是&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; 框架.&lt;br&gt;采用的主题为&lt;a href=&quot;http://theme-next.iissnan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NEXT&lt;/a&gt;&lt;br&gt;采用的评论模板为&lt;a href=&quot;http://duoshuo.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;多说&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -176,10 +176,42 @@
   
   <entry>
     <title>Hello World</title>
+    <link href="http://chenyunxuan.top/2014/12/22/hello-world/"/>
+    <id>http://chenyunxuan.top/2014/12/22/hello-world/</id>
+    <published>2014-12-22T04:39:04.000Z</published>
+    <updated>2016-10-24T06:25:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://chenyunxuan.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://chenyunxuan.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
     <link href="http://chenyunxuan.top/2014/12/22/%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/"/>
     <id>http://chenyunxuan.top/2014/12/22/日积月累/</id>
     <published>2014-12-22T04:39:04.000Z</published>
-    <updated>2017-04-07T08:46:27.593Z</updated>
+    <updated>2017-07-20T08:48:45.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://o84sfajoj.bkt.clouddn.com/201510211?imageView2/2/w/900/interlace/0/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/14/gravity/SouthEast/dx/10/dy/10" alt="image"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">人主之居也，如日月之明也。</div><div class="line">天下之所同侧目而视，侧耳而听，延颈举踵而望也。</div><div class="line">是故非澹泊（同：淡泊）无以明德，非宁静无以致远，非宽大无以兼覆，</div><div class="line">非慈厚无以怀众，非平正无以制断。</div></pre></td></tr></table></figure>
@@ -218,6 +250,11 @@
 <li>标签云 <a href="https://www.jasondavies.com/wordcloud/" target="_blank" rel="external">https://www.jasondavies.com/wordcloud/</a> </li>
 <li>redis教程 <a href="http://www.epubit.com.cn/article/200" target="_blank" rel="external">http://www.epubit.com.cn/article/200</a></li>
 <li>myeclipse优化 <a href="http://blog.163.com/qcb_163/blog/static/95454664201110942121440/" target="_blank" rel="external">http://blog.163.com/qcb_163/blog/static/95454664201110942121440/</a></li>
+<li>云上作业 <a href="https://uzer.me" target="_blank" rel="external">https://uzer.me</a></li>
+<li>文件私有云 <a href="https://www.resilio.com/home/#" target="_blank" rel="external">https://www.resilio.com/home/#</a></li>
+<li>Resilio  Sync<br><a href="https://www.waitsun.com/" target="_blank" rel="external">https://www.waitsun.com/</a></li>
+<li>壁纸 <a href="http://wallpaperswide.com/" target="_blank" rel="external">http://wallpaperswide.com/</a> </li>
+<li>干货 <a href="https://pan.baidu.com/share/home?uk=2586978905#category/type=0" target="_blank" rel="external">https://pan.baidu.com/share/home?uk=2586978905#category/type=0</a> </li>
 </ul>
 ]]></content>
     
@@ -230,38 +267,6 @@
     
     
       <category term="干货" scheme="http://chenyunxuan.top/tags/%E5%B9%B2%E8%B4%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://chenyunxuan.top/2014/12/22/hello-world/"/>
-    <id>http://chenyunxuan.top/2014/12/22/hello-world/</id>
-    <published>2014-12-22T04:39:04.000Z</published>
-    <updated>2016-10-24T06:25:02.600Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://chenyunxuan.top/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="http://chenyunxuan.top/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
