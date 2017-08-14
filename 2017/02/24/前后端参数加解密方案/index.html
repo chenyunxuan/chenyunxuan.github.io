@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="随笔," />
+  <meta name="keywords" content="js,干货,java,算法," />
 
 
 
@@ -95,17 +95,19 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
-<meta name="keywords" content="随笔">
+<meta name="description" content="简介  HTTP信息传输总会遇到参数被劫持进行二次传输的尴尬境地,为了避免这种情况,建议在前端请求的时候对上行参数进行加密传输,后端再进行解密,防止信息被盗取">
+<meta name="keywords" content="js,干货,java,算法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://chenyunxuan.top/2014/12/22/hello-world/index.html">
+<meta property="og:title" content="前后端参数加解密方案">
+<meta property="og:url" content="http://chenyunxuan.top/2017/02/24/前后端参数加解密方案/index.html">
 <meta property="og:site_name" content="DailyPractice">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
-<meta property="og:updated_time" content="2016-10-24T06:25:04.000Z">
+<meta property="og:description" content="简介  HTTP信息传输总会遇到参数被劫持进行二次传输的尴尬境地,为了避免这种情况,建议在前端请求的时候对上行参数进行加密传输,后端再进行解密,防止信息被盗取">
+<meta property="og:image" content="http://o84sfajoj.bkt.clouddn.com/201708011_block?imageView2/1/w/900/h/400/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/23/gravity/SouthEast/dx/10/dy/10">
+<meta property="og:updated_time" content="2017-08-11T09:46:39.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="前后端参数加解密方案">
+<meta name="twitter:description" content="简介  HTTP信息传输总会遇到参数被劫持进行二次传输的尴尬境地,为了避免这种情况,建议在前端请求的时候对上行参数进行加密传输,后端再进行解密,防止信息被盗取">
+<meta name="twitter:image" content="http://o84sfajoj.bkt.clouddn.com/201708011_block?imageView2/1/w/900/h/400/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/23/gravity/SouthEast/dx/10/dy/10">
 
 
 
@@ -133,13 +135,13 @@
 
 
 
-  <link rel="canonical" href="http://chenyunxuan.top/2014/12/22/hello-world/"/>
+  <link rel="canonical" href="http://chenyunxuan.top/2017/02/24/前后端参数加解密方案/"/>
 
 
 
 
 
-  <title>Hello World | DailyPractice</title>
+  <title>前后端参数加解密方案 | DailyPractice</title>
   
 
 
@@ -268,7 +270,7 @@
   
 
   <article class="post post-type-tags " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://chenyunxuan.top/2014/12/22/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://chenyunxuan.top/2017/02/24/前后端参数加解密方案/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Chenyunxuan">
@@ -285,7 +287,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Hello World</h2>
+          <h2 class="post-title" itemprop="name headline">前后端参数加解密方案</h2>
         
 
         <div class="post-meta">
@@ -297,8 +299,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-12-22T12:39:04+08:00">
-                2014-12-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-24T12:39:04+08:00">
+                2017-02-24
               </time>
             
 
@@ -320,8 +322,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
+                  <a href="/categories/js/" itemprop="url" rel="index">
+                    <span itemprop="name">js</span>
                   </a>
                 </span>
 
@@ -332,10 +334,12 @@
           
 
           
+            
+          
 
           
           
-             <span id="/2014/12/22/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/2017/02/24/前后端参数加解密方案/" class="leancloud_visitors" data-flag-title="前后端参数加解密方案">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -363,16 +367,26 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+        <p><img src="http://o84sfajoj.bkt.clouddn.com/201708011_block?imageView2/1/w/900/h/400/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/23/gravity/SouthEast/dx/10/dy/10" alt="image"></p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>  HTTP信息传输总会遇到参数被劫持进行二次传输的尴尬境地,为了避免这种情况,建议在前端请求的时候对上行参数进行加密传输,后端再进行解密,防止信息被盗取</p>
 <a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>前端: 框架采用VUE.JS,加密可以选用方案较为完善的<a href="https://www.npmjs.com/package/crypto-js" target="_blank" rel="external">CryptoJS</a> 本文采用CryptoJS其中的aes加密方案为例<br>后端: 也采用对应的aes加密进行参数解析</p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><p>用npm进行安装</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install crypto-js</div></pre></td></tr></table></figure>
+<p>这时项目的package.json中就会引入crypto-js,打开package.json会出现以下代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&quot;dependencies&quot;: &#123;</div><div class="line">  &quot;crypto-js&quot;: &quot;^3.1.9-1&quot;,</div><div class="line">  &quot;element-ui&quot;: &quot;^1.4.2&quot;,</div><div class="line">  &quot;vue&quot;: &quot;^2.2.1&quot;,</div><div class="line">  &quot;vue-resource&quot;: &quot;^1.2.1&quot;,</div><div class="line">  &quot;vue-router&quot;: &quot;^2.3.1&quot;</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
+<p>这时我们就可以开始在前端JS中进行加密操作了</p>
+<h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><p>通过java自带的加密包即可实现</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">import javax.crypto.Cipher;</div><div class="line">import javax.crypto.KeyGenerator;</div><div class="line">import javax.crypto.spec.SecretKeySpec;</div></pre></td></tr></table></figure>
+<p>##代码实现</p>
+<p>###JS部分<br>因为整个项目的请求参数都需要加密,所以这里抽离出一段请求JS<br>感谢这篇文章给的启发<a href="http://jser.io/2014/08/19/how-to-use-aes-in-crypto-js-to-encrypt-and-decrypt" target="_blank" rel="external">crypto.js的坑</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">Vue.prototype.getData = function (url,params) &#123;</div><div class="line">        //js获取当前日期</div><div class="line">    	var date = new Date();</div><div class="line">    	// 引入 CryptoJS</div><div class="line">     	var CryptoJS = require(&quot;crypto-js&quot;);</div><div class="line">     	//由于Java就是按照128bit给的，需要使用CryptoJS.enc.Utf8.parse方法才可以将key转为128bit的。</div><div class="line">     	var key = CryptoJS.enc.Utf8.parse(&quot;公钥(需要16位)&quot;);</div><div class="line">       //因为CryptoJS的规范,需要把date.getTime()转化为String类型才可以正确的加密</div><div class="line">     	var encryptedData = CryptoJS.AES.encrypt(&quot;&quot;+date.getTime(),key , &#123;</div><div class="line">    	    mode: CryptoJS.mode.ECB,</div><div class="line">    	    padding: CryptoJS.pad.Pkcs7</div><div class="line">    	&#125;);</div><div class="line">     	params = params || &#123;&#125;</div><div class="line">     	//把结果转化为String类型再传入后端</div><div class="line">    	params.token = encryptedData.toString()</div><div class="line">    	//返回VUE-resource对象</div><div class="line">       return this.$http.post(url,params,&#123; emulateJSON: true &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>在每个模块请求的代码中引入这个方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">function:getRemain ()&#123;</div><div class="line">let vm = this;</div><div class="line">vm.getData(usages.api.vacation,&#123;&#125;).then((res)=&gt;&#123;</div><div class="line">   if (res.ok) &#123;</div><div class="line">	 //doSomething</div><div class="line">      &#125;</div><div class="line">&#125;,(res)=&gt;&#123;</div><div class="line">  //fail</div><div class="line">   &#125;)</div><div class="line">  &#125;</div></pre></td></tr></table></figure>
+<p>###Java部分<br>首先要创建一个加密工具类,用于封装加密解密方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line">public class EncryptUtil &#123;</div><div class="line">    private static final String KEY = &quot;16位加密匙&quot;;</div><div class="line">    private static final String ALGORITHMSTR = &quot;AES/ECB/PKCS5Padding&quot;;</div><div class="line">    public static String base64Encode(byte[] bytes)&#123;</div><div class="line">        return encodeBase64String(bytes);</div><div class="line">    &#125;</div><div class="line">    public static byte[] base64Decode(String base64Code) throws Exception&#123;</div><div class="line">        return new BASE64Decoder().decodeBuffer(base64Code);</div><div class="line">    &#125;</div><div class="line">    public static byte[] aesEncryptToBytes(String content, String encryptKey) throws Exception &#123;</div><div class="line">        KeyGenerator kgen = KeyGenerator.getInstance(&quot;AES&quot;);</div><div class="line">        kgen.init(128);</div><div class="line">        Cipher cipher = Cipher.getInstance(ALGORITHMSTR);</div><div class="line">        cipher.init(Cipher.ENCRYPT_MODE, new SecretKeySpec(encryptKey.getBytes(), &quot;AES&quot;));</div><div class="line">        return cipher.doFinal(content.getBytes(&quot;utf-8&quot;));</div><div class="line">    &#125;</div><div class="line">    public static String aesEncrypt(String content, String encryptKey) throws Exception &#123;</div><div class="line">        return base64Encode(aesEncryptToBytes(content, encryptKey));</div><div class="line">    &#125;</div><div class="line">    public static String aesDecryptByBytes(byte[] encryptBytes, String decryptKey) throws Exception &#123;</div><div class="line">        KeyGenerator kgen = KeyGenerator.getInstance(&quot;AES&quot;);</div><div class="line">        kgen.init(128);</div><div class="line">        Cipher cipher = Cipher.getInstance(ALGORITHMSTR);</div><div class="line">        cipher.init(Cipher.DECRYPT_MODE, new SecretKeySpec(decryptKey.getBytes(), &quot;AES&quot;));</div><div class="line">        byte[] decryptBytes = cipher.doFinal(encryptBytes);</div><div class="line">        return new String(decryptBytes);</div><div class="line">    &#125;</div><div class="line">    public static String aesDecrypt(String encryptStr, String decryptKey) throws Exception &#123;</div><div class="line">        return aesDecryptByBytes(base64Decode(encryptStr), decryptKey);</div><div class="line">    &#125;</div><div class="line">    /** * 测试 * */</div><div class="line">    public static void main(String[] args) throws Exception &#123;</div><div class="line">        String content = &quot;Test&quot;;  </div><div class="line">        System.out.println(&quot;加密前：&quot; + content);</div><div class="line">        System.out.println(&quot;加密密钥和解密密钥：&quot; + KEY);</div><div class="line">        String encrypt = aesEncrypt(content, KEY);</div><div class="line">        System.out.println(encrypt.length()+&quot;:加密后：&quot; + encrypt);</div><div class="line">        String decrypt = aesDecrypt(encrypt, KEY);</div><div class="line">        System.out.println(&quot;解密后：&quot; + decrypt);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>在方法中调用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">EncryptUtil.aesDecrypt(&quot;&quot;,&quot;&quot;);</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -402,7 +416,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/随笔/" rel="tag"># 随笔</a>
+            <a href="/tags/js/" rel="tag"># js</a>
+          
+            <a href="/tags/干货/" rel="tag"># 干货</a>
+          
+            <a href="/tags/java/" rel="tag"># java</a>
+          
+            <a href="/tags/算法/" rel="tag"># 算法</a>
           
         </div>
       
@@ -415,8 +435,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2014/12/22/日积月累/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2016/10/24/博客搭建教程/" rel="next" title="博客搭建教程">
+                <i class="fa fa-chevron-left"></i> 博客搭建教程
               </a>
             
           </div>
@@ -425,8 +445,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/10/24/博客搭建教程/" rel="prev" title="博客搭建教程">
-                博客搭建教程 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/24/SpringMVC拦截器/" rel="prev" title="SpringMVC拦截器">
+                SpringMVC拦截器 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -451,6 +471,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8yOTc5OC82MzY0"></div>
+    
+  </div>
+
 
         </div>
         
@@ -589,7 +615,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点"><span class="nav-number">2.</span> <span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备"><span class="nav-number">3.</span> <span class="nav-text">准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#前端"><span class="nav-number">3.1.</span> <span class="nav-text">前端</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#后端"><span class="nav-number">3.2.</span> <span class="nav-text">后端</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -733,6 +759,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
