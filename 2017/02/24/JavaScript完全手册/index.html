@@ -104,7 +104,7 @@
 <meta property="og:description" content="简介  由于 JavaScript “弱语言”的性质，使得其在使用过程中异常的宽松灵活，但也极为容易“中招”。这些坑往往隐藏着，所以必须擦亮双眼，才能在学习与应用 JS 的道路上走的一帆风顺。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://o84sfajoj.bkt.clouddn.com/201708011_javascript?imageView2/1/w/900/h/400/q/100|watermark/2/text/6ZmI5LqR6L2p/font/6buR5L2T/fontsize/500/fill/I0FEQThBOA==/dissolve/23/gravity/SouthEast/dx/10/dy/10">
-<meta property="og:updated_time" content="2017-09-21T02:23:44.000Z">
+<meta property="og:updated_time" content="2018-01-10T03:09:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript完全手册">
 <meta name="twitter:description" content="简介  由于 JavaScript “弱语言”的性质，使得其在使用过程中异常的宽松灵活，但也极为容易“中招”。这些坑往往隐藏着，所以必须擦亮双眼，才能在学习与应用 JS 的道路上走的一帆风顺。">
@@ -381,6 +381,7 @@
 <p>此方法可以直接返回一个{}的前端集合,通过params.参数名,如params.id就能获取到?后面id参数值</p>
 <h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">GetQueryString(name) &#123;</div><div class="line">			   let reg = new RegExp(&quot;(^|&amp;)&quot;+ name +&quot;=([^&amp;]*)(&amp;|$)&quot;);</div><div class="line"> 			   let r = window.location.search.substr(1).match(reg);</div><div class="line">		       if(r!=null)return  unescape(r[2]); return null;</div><div class="line">		&#125;,</div></pre></td></tr></table></figure>
 <p>name传入你要查找的参数即可,返回值就是这个参数的值</p>
+<h2 id="JS获取屏幕高度宽度"><a href="#JS获取屏幕高度宽度" class="headerlink" title="JS获取屏幕高度宽度"></a>JS获取屏幕高度宽度</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">function getScreenInfo() </div><div class="line">&#123; </div><div class="line">    var s = &quot;&quot;; </div><div class="line">    s = &quot; 网页可见区域宽：&quot; document.body.clientWidth; </div><div class="line">    s = &quot; 网页可见区域高：&quot; document.body.clientHeight; </div><div class="line">    s = &quot; 网页可见区域宽：&quot; document.body.offsetWidth &quot; (包括边线和滚动条的宽)&quot;; </div><div class="line">    s = &quot; 网页可见区域高：&quot; document.body.offsetHeight &quot; (包括边线的宽)&quot;; </div><div class="line">    s = &quot; 网页正文全文宽：&quot; document.body.scrollWidth; </div><div class="line">    s = &quot; 网页正文全文高：&quot; document.body.scrollHeight; </div><div class="line">    s = &quot; 网页被卷去的高(ff)：&quot; document.body.scrollTop; </div><div class="line">    s = &quot; 网页被卷去的高(ie)：&quot; document.documentElement.scrollTop; </div><div class="line">    s = &quot; 网页被卷去的左：&quot; document.body.scrollLeft; </div><div class="line">    s = &quot; 网页正文部分上：&quot; window.screenTop; </div><div class="line">    s = &quot; 网页正文部分左：&quot; window.screenLeft; </div><div class="line">    s = &quot; 屏幕分辨率的高：&quot; window.screen.height; </div><div class="line">    s = &quot; 屏幕分辨率的宽：&quot; window.screen.width; </div><div class="line">    s = &quot; 屏幕可用工作区高度：&quot; window.screen.availHeight; </div><div class="line">    s = &quot; 屏幕可用工作区宽度：&quot; window.screen.availWidth;</div><div class="line">    s = &quot; 你的屏幕设置是 &quot; window.screen.colorDepth &quot; 位彩色&quot;; </div><div class="line">    s = &quot; 你的屏幕设置 &quot; window.screen.deviceXDPI &quot; 像素/英寸&quot;; </div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -425,8 +426,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/02/24/SpringMVC拦截器/" rel="next" title="SpringMVC拦截器">
-                <i class="fa fa-chevron-left"></i> SpringMVC拦截器
+              <a href="/2017/02/24/前后端参数加解密方案/" rel="next" title="前后端参数加解密方案">
+                <i class="fa fa-chevron-left"></i> 前后端参数加解密方案
               </a>
             
           </div>
@@ -435,8 +436,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/24/GIT实用指北/" rel="prev" title="GIT实用指北">
-                GIT实用指北 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/24/SpringMVC拦截器/" rel="prev" title="SpringMVC拦截器">
+                SpringMVC拦截器 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -605,7 +606,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript转换问题"><span class="nav-number">2.</span> <span class="nav-text">JavaScript转换问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#字符转数字类型"><span class="nav-number">2.1.</span> <span class="nav-text">字符转数字类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#判断是否为纯数字"><span class="nav-number">2.2.</span> <span class="nav-text">判断是否为纯数字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符或者数字转布尔类型"><span class="nav-number">2.3.</span> <span class="nav-text">字符或者数字转布尔类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字或者布尔类型转字符"><span class="nav-number">2.4.</span> <span class="nav-text">数字或者布尔类型转字符</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript截取链接后的参数"><span class="nav-number">3.</span> <span class="nav-text">JavaScript截取链接后的参数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方法一"><span class="nav-number">3.1.</span> <span class="nav-text">方法一</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方法二"><span class="nav-number">3.2.</span> <span class="nav-text">方法二</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript转换问题"><span class="nav-number">2.</span> <span class="nav-text">JavaScript转换问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#字符转数字类型"><span class="nav-number">2.1.</span> <span class="nav-text">字符转数字类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#判断是否为纯数字"><span class="nav-number">2.2.</span> <span class="nav-text">判断是否为纯数字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符或者数字转布尔类型"><span class="nav-number">2.3.</span> <span class="nav-text">字符或者数字转布尔类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数字或者布尔类型转字符"><span class="nav-number">2.4.</span> <span class="nav-text">数字或者布尔类型转字符</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript截取链接后的参数"><span class="nav-number">3.</span> <span class="nav-text">JavaScript截取链接后的参数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方法一"><span class="nav-number">3.1.</span> <span class="nav-text">方法一</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方法二"><span class="nav-number">3.2.</span> <span class="nav-text">方法二</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS获取屏幕高度宽度"><span class="nav-number">4.</span> <span class="nav-text">JS获取屏幕高度宽度</span></a></li></ol></div>
             
 
           </div>
